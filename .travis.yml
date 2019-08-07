@@ -5,4 +5,5 @@ node_js:
   - "11"
   - "12"
 after_script:
+  - npm run benchmark
   - coveralls < coverage/lcov.info
